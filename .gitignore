@@ -1,17 +1,9 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+.DS_Store
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
 
-#codeigniter 3
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
-/vendor/
